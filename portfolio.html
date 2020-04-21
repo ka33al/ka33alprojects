@@ -64,11 +64,22 @@
   .base2 p a{
       color:#55B188 ;
       text-decoration:  none;
+      text-align: center;
+      
   }
   .base2 ul {
       text-align: left;
       display: flex;
   }
+ 
+  .base2 ul a { 
+     background-color:#55B188 ;
+     border-radius: 5px;
+     text-align: left;
+     text-decoration: none;
+     color: #ffff;
+     padding:5px ;
+    }
   .base2 h2{
       padding-left: 30px;
       
@@ -86,18 +97,12 @@
  }
  .icon li {
      margin:auto;
+     
  }
  .menu li a{
     text-decoration:  none;
      color: #ffff ;
- }
- button{
-     background-color:#55B188 ;
-     border-radius: 5px;
-     text-align: left;
- }
- .button{background-color:#333333;
-    color: #ffff;
+
 }
    .base3{
     flex-flow: row;
@@ -109,8 +114,8 @@
      border-radius: 5px;
      text-align: center;
      color: #ffff;
-     width:100px;
-     height: 30px;
+     width:auto;
+     height: auto;
  }
  </style>
 
@@ -129,7 +134,7 @@
                     </li>
                 </ul>
                 <ul class="icon"> 
-                    <li> <img src="/_assets/icon-twitter.png" alt="" width="32px"></li>
+                    <li><img src="/_assets/PNG/32px/407-twitter.png" alt="" ></li>
                     <li><img src="/_assets/PNG/32px/458-linkedin.png" alt=""></li>
                     <li><img src="/_assets/PNG/32px/389-mail2.png" alt=""></li>
                     <li><img src="/_assets/PNG/32px/433-github.png" alt=""></li>
@@ -143,7 +148,7 @@
                     <li><a href="blog">Blog</a></li>
                     <li><a href="contact">Contact</a></li>
                     <li><a href="services">Services& Pincing</a></li>
-                    <li><button class="button2"><img src="/_assets/PNG/32px/406-telegram.png" alt="hireme" width="15px">Hire me</button></li>
+                    <li><button class="button2"><img src="/_assets/PNG/16px/406-telegram.png" alt="hireme">Hire me</button></li>
                 </ul>   
             </div>
         <div class="base2" style="flex-grow: 6;">
@@ -158,8 +163,8 @@
                         <a href="online-resume">online resume.</a>
                     </p>
                     <ul >
-                        <button > <img src="/_assets/PNG/16px/309-arrow-right.png" alt="view-portfolio" width="15px"> View Portfolio</button>
-                        <button class="button" ><img src="/_assets/PNG/16px/039-file-text2.png" alt="view-resume" width="15px"> View Resume</button>
+                        <li><a href="" > <img src="/_assets/PNG/16px/309-arrow-right.png" alt="view-portfolio" > View Portfolio</a></li>
+                        <li><a href="" style="background-color:#333333 ;" ><img src="/_assets/PNG/16px/039-file-text2.png" alt="view-resume"> View Resume</a></li>
                     </ul>
                 <h2>What I do </h2>
                 <p>I have more than 10 year's experience building software for clients all over 
