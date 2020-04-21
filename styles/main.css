@@ -190,6 +190,10 @@
         padding: 10px;
         text-transform: uppercase;
     }
+    .but a {
+        text-decoration: none;
+        color: #fff;
+    }
     .img1{
      width: 70px;
     padding: 1px 70px;
