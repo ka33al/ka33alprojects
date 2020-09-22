@@ -121,7 +121,7 @@ body{
     
 }
 .img ul li#foto1{
-    background: url(../_img/img1.jpg) no-repeat;
+    background: url(/img/img1.jpg) no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff;
@@ -131,7 +131,7 @@ body{
     background-size: 200px 200px;
 }
 .img ul li#foto2{
-    background: url(../_img/img2.jpg) no-repeat;
+    background: url(/img/img2.jpg) no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff;
@@ -142,7 +142,7 @@ body{
     background-size: 200px 200px;
 }
 .img ul li#foto3{
-    background: url(../_img/img3.jpg) no-repeat;
+    background: url(/img/img3.jpg) no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff;
@@ -153,7 +153,7 @@ body{
     background-size: 200px 200px;
 }
 .img ul li#foto4{
-    background: url(../_img/img4.jpg) no-repeat;
+    background: url(/img/img4.jpg) no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff;
@@ -164,7 +164,7 @@ body{
     background-size: 200px 200px;
 }
 .img ul li#foto5{
-    background: url(../_img/img5.jpg) no-repeat;
+    background: url(/img/img5.jpg) no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff;
@@ -175,7 +175,7 @@ body{
     background-size: 200px 200px;
 }
 .img ul li#foto6{
-    background: url(../_img/img6.jpg) no-repeat;
+    background: url(/img/img6.jpg) no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff;
