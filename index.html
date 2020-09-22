@@ -1,256 +1,53 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <title> portfolio</title>
-    <style>
-  body{
-      background-color:#f3f3f3;
-      width: 970px;
-      padding: 50px;
-      margin: auto;
-      
-  }
-  .base{
-      background-color: #55B188;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      border-radius: 30px;
-      margin: auto;
-
-  }
-  .base div ul{
-      list-style: none;
-      text-align: center;
-    
-      
-  }
-  .base ul li {
-      text-align:justify;
-      padding: 10px;
-      
-  }
-  .perfil{
-      width: 100px;   
-      
-        background-color: transparent;
-        border: solid 0px #296A92;
-        border-radius: 450px;  
-        
-  }
-  header{
-      text-align: center;
-  }
-  h1 {
-      text-align: left;
-      margin: 30px 30px 5px;
-  }
-  h3{ 
-      text-align: left;
-      margin: 2px 30px 10px;
-
-  }
-  .base2{
-      background-color:#ffff ;
-      border-radius: 0px 20px 20px 0px;
-  }
-  .base2 p{
-      text-align:left;
-      background-color: #ffff;
-      margin: auto;
-      padding: 10px 30px;
-      font-size: 14px;
-  }
-  .base2 p a{
-      color:#55B188 ;
-      text-decoration:  none;
-      text-align: center;
-      
-  }
-  .base2 ul {
-      text-align: left;
-      display: flex;
-  }
- 
-  .base2 ul a { 
-     background-color:#55B188 ;
-     border-radius: 5px;
-     text-align: left;
-     text-decoration: none;
-     color: #ffff;
-     padding:5px ;
-     width: 10px;
-     
-    }
-    .base2 ul li a img{
-        width: 15px;
-    }
-  .base2 h2{
-      padding-left: 30px;
-      
-      margin:auto;
-  }
- .perfil2{ 
-     float: right;
-     width: 150px;
- }
- .icon{ 
-    display: flex;
-    align-items: center;
-    margin: auto;
-    padding: 0px 20px 0px 0px;
- }
- .icon li {
-     margin:auto;
-     
- }
- .menu li a{
-    text-decoration:  none;
-     color: #ffff ;
-
-}
-   .base3{
-    flex-flow: row;
-    margin: auto;
-    
-    text-align: justify;
-   }
-   .button2{
-    background-color:rgb(105, 112, 107) ;
-     border-radius: 5px;
-     text-align: center;
-     color: #ffff;
-     width:auto;
-     height: auto;
- }
- .profile{
-    background:url("/images/perfil.jpeg");
-    background-size: cover;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin: 15px auto;
-    background-position-y: -20px;
-} 
-.menu li button img{ 
-    width: 15px;
-}
-.profile p {
-    margin: 10px;
-    padding:10px;
-}
-
- </style>
-
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/8da2b1ef8c.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/site_dp/_css/style.css">
+    <title>DP Tatoo</title>
 </head>
-
 <body>
-    <div class="base">
-            <div style="flex-grow: 2;">
-               
-                <div class="profile"></div>
-             
-                     <p>  Hi, my name is francisco santos silva, 30 years.
-                        i'm learn hltml and css for i've one profission
-                        in feature for a new life, i'm here for look new </p>
-                    
-            
-                <ul class="icon"> 
-                    <li><img src="/images/407-twitter.png" alt="" ></li>
-                    <li><img src="/images/458-linkedin.png" alt=""></li>
-                    <li><img src="/images/389-mail2.png" alt=""></li>
-                    <li><img src="/images/433-github.png" alt=""></li>
-                    <li><img src="/images/403-instagram.png" alt=""></li>
-                </ul>
-                <hr/>
-                <ul class="menu" >
-                    <li><a href="about-me"> About-me</a></li>
-                    <li><a href="portfolio">Portfolio</a></li>
-                    <li><a href="resume">Resume</a></li>
-                    <li><a href="blog">Blog</a></li>
-                    <li><a href="contact">Contact</a></li>
-                    <li><a href="services">Services& Pincing</a></li>
-                    <li><button class="button2"><img src="/images/406-telegram.png" alt="">Hire me</button></li>
-                </ul>   
-            </div>
-        <div class="base2" style="flex-grow: 6;">
-                
-                    <h1> Francisco Santos Silva</h1>
-                    <h3>Senior Software Engineer</h3>
-                
-                    <p> I'm software engineer specialised in frontend and 
-                        backend <br/>development for complex scalable web apps. I writw about<br/>
-                        software development<a href="my-blog"> my blog.</a>Want to know how i may help <br/>
-                        you project?  Check out my project <a href="portfolio">portfolio</a>and
-                        <a href="online-resume">online resume.</a>
-                    </p>
-                    <ul >
-                        <li><a href="" ><img  src="/images/309-arrow-right.png" alt="view-portfolio" > View Portfolio</a></li>
-                        <li><a href="" style="background-color:#333333 ;" ><img src="/images/039-file-text2.png" alt=""> View Resume</a></li>
-                    </ul>
-                <h2>What I do </h2>
-                <p>I have more than 10 year's experience building software for clients all over 
-                    the world. Below is a quick overview of my main techinical skill sets an
-                    technologies I use. Want find out more about my experience? Check out my 
-                    <a href="online-resume">online resume.</a> and <a href="portfolio">project portfolio.</a>
-
-                </p>
-            <div class="base3">
-                <ul >
-                    <li>
-                        <h3>Vanilla JavaScript</h3>
-                        <p>List skills/technologies here. 
-                        You can change the icon above to any 
-                        1500+ FontAwensome 5 free icons avaliable.
-                        aenean commodo ligula eget dolor.</p>
-                    </li>
-                    <li>
-                        <h3>Angular, React & Vue</h3>
-                        <p>List skills/technologies here. 
-                            You can change the icon above to any 
-                            1500+ FontAwensome 5 free icons avaliable.
-                            aenean commodo ligula eget dolor.</p>
-                    </li>
-                    <li>
-                        <h3>Node.js</h3>
-                        <p>List skills/technologies here. 
-                            You can change the icon above to any 
-                            1500+ FontAwensome 5 free icons avaliable.
-                            aenean commodo ligula eget dolor.</p>
-                    </li>
-                    <li>
-                        <h3> Python & Django</h3>
-                        <p>List skills/technologies here. 
-                            You can change the icon above to any 
-                            1500+ FontAwensome 5 free icons avaliable.
-                            aenean commodo ligula eget dolor.</p>
-                    </li>
-                </ul>
-                        <ul class="base4">
-                            <li>
-                                <h3>PHP</h3>
-                                <p>List skill/technologies here.</p>
-                            </li>
-                            <li>
-                                <h3>npm, Gulp & Grunt</h3>
-                                <p>List skill/technologies here.</p>
-                            </li>
-                            <li>
-                                <h3>HTML & CSS</h3>
-                                <p>List skill/technologies here.</p>
-                            </li>
-                            <li>
-                                <h3>Sass 7 LESS</h3>
-                                <p>List skill/technologies here.</p>
-                            </li>
-                        </ul>
-            </div>
-            
+    <div class="resume">
+        <div class="title">
+            nome do tatuador
         </div>
-               
-      </div>
+        <div class="menu">
+            <ul>
+                <li> <a href="/site_dp/index.html">Home</a> </li>
+                <li> <a href="/site_dp/portifolio.html">Portifólio</a>  </li>
+                <li> <a href="/site_dp/about.html">About</a>  </li>
+                <li> <a href="/site_dp/events.html">Events</a>  </li>
+                <li> <a href="/site_dp/contact_us.html">Contact us</a>   </li>
+            </ul>
+        </div>
+        <div class="logo">
+            <img src="/site_dp/_img/logo2.png" alt="">
+        </div>
+        <div class="button"><button>More</button> </div>
+        <div class="resume_info">
+            <p>
+                email@email.com
+            </p>
+            <p>uma pre apresentalção do tatuador</p>
+        </div>
+    
+    </div>
+    <div class="backgroun"> 
+        <div class="img">
+            <ul >
+                <li id="foto1"></li>
+                <li id="foto2"></li>
+                <li id="foto3"></li>
+                <li id="foto4"></li>
+                <li id="foto5"></li>
+                <li id="foto6"></li>
+            </ul>
+        </div> 
+            <div class="icon">
+                <div class="icone"><i class="fab fa-facebook-square"></i></div>
+                <div class="icone"><i class="fab fa-instagram-square"></i></div>
+                <div class="icone"><i class="fas fa-mobile"></i></div>
+            </div>
+    </div>
 </body>
-
-
 </html>
