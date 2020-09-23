@@ -1,50 +1,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script src="https://kit.fontawesome.com/8da2b1ef8c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DP Tatoo</title>
+    <title>Dp Tatoo</title>
 </head>
 <body>
     <nav>
-        <li> <a href="/index.html">Home</a> </li>
-        <li> <a href="/portifolio.html">Portifólio</a>  </li>
-        <li> <a href="/about.html">About</a>  </li>
-        <li> <a href="/events.html">Events</a>  </li>
-        <li> <a href="/contact_us.html">Contact us</a>   </li>
+        <ul id="home">
+            <li><a href="#home">home</a></li>
+            <li><a href="#service">services</a></li>
+            <li><a href="#galery">galery</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="#footer">contact</a></li>
+        </ul>
     </nav>
-    <div id="header">
-        <div class="logo">
-            <img src="/img/logo2.png" alt="">
-        </div>
-        <h1>
-            nome do tatuador
-        </h1>
+    <div id="logo">
+        <img  src="/img/logo2.png" alt="logo do dp">
     </div>
     <div class="content">
-        <h2>Gallery</h2>
-        <ul class="gallery">
-            <li><img src="/img/img1.jpg" alt="Tatuagem da rosa"></li>
-            <li><img src="/img/img1.jpg" alt="Tatuagem da rosa"></li>
-            <li><img src="/img/img1.jpg" alt="Tatuagem da rosa"></li>
-            <li><img src="/img/img1.jpg" alt="Tatuagem da rosa"></li>
-            <li><img src="/img/img1.jpg" alt="Tatuagem da rosa"></li>
-            <li><img src="/img/img1.jpg" alt="Tatuagem da rosa"></li>
-            <li><img src="/img/img1.jpg" alt="Tatuagem da rosa"></li>
+        <h2 id="title">Services</h2>
+        <nav >
+            <ul id="service" >
+
+            <li>
+                <h2>Tatuagem</h2>
+                <p>breve apresentação sobre o seu servico</p>
+            </li>
+            <li>
+                <h2>Desenvolvimetno da Tatuagem</h2>
+                <p>breve apresentação sobre o seu serviço </p>
+            </li>
+            <li>
+                <h2>Piercing</h2>
+                <p>breve apresentação sobre o seu servico</p>
+            </li>
         </ul>
+        </nav>
+        <nav>
+        <ul id="galery">
+            <li class="image"><img src="/img/img1.jpg" alt=""></li>
+            <li class="image"><img src="/img/img2.jpg" alt=""></li>
+            <li class="image"><img src="/img/img3.jpg" alt=""></li>
+            <li class="image"><img src="/img/img4.jpg" alt=""></li>
+            <li class="image"><img src="/img/img5.jpg" alt=""></li>
+            <li class="image"><img src="/img/img6.jpg" alt=""></li>
+       </ul>
+    </nav>
     </div>
-    <div id="footer">
-        <div class="resume_info">
-            <h3>Informacoes de contato</h3>
-            <a href="mailto:email@email.com" title="Email do DP">
-                email@email.com
-            </a>
-        </div>
-        <div class="icon">
-            <div class="icone"><i class="fab fa-facebook-square"></i></div>
-            <div class="icone"><i class="fab fa-instagram-square"></i></div>
-            <div class="icone"><i class="fas fa-mobile"></i></div>
-        </div>
-    </div>
+    <div class="footer" id="footer">
+    <ul>
+        <li><a href=""><img src="/icon/icon_face.png" alt="facebook"></a></li>
+        <li><img src="/icon/icon_insta.png" alt="instagram"></li>
+        <li><img src="/icon/icon_mobi.png" alt="64999977881"></li>
+        <li><img src="/icon/icon_whats.png" alt="6499977881"></li>
+    </ul>
+</div>
+    
 </body>
 </html>

@@ -1,285 +1,101 @@
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    font-family: 'Share Tech Mono', monospace;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+    
 body{
-    width: 100%;
-    background-color: #ffffff;
-    font-size: 14px;
-    line-height: 20px;
-}
-.gallery{
-    text-align: center;
-}
-.gallery img{
-    width: 70%;
+    width: auto;
     height: auto;
-    margin: 30px;
-    border: 3px #fff solid;
-}
-.resume .title{
- font-size: 25PX;
- padding: 10px;
- background-color:#ffffff;
- text-transform: uppercase;
- width: auto;
- height: 10px;
- margin: 10px;
-}
-.resume .menu{
-    display: flex;
-    flex-direction: column;
-    width:auto;
-    height: 100px;
-    background-color:#ffffff;
-    align-items: center;
+    background :linear-gradient(to right,#550e55,#3d3794,#ffffff);
+
 }
 
-.menu{
-    display: flex;
+nav{
+    text-align: center;
+    width: auto;
+    height: auto;
     margin: 50px auto;
     
 }
-.menu li{
-    display: flex;
-    font-size: 20px;
-    padding: 20px;  
-}
-.menu a{
-    text-decoration: none;
-    color: #2C2C2C;
-}
-.resume .logo{
+nav ul{
     width: auto;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.resume .logo img{
-    align-items: center;   
-    width: 100px;
-    height: 100%;
-    opacity:0.65;
-    -moz-opacity: 0.65;
-    filter: alpha(opacity=65);
-    margin: 100px;
-}
-.resume .button{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.resume .button button{
-    width: 50px;
-    background-color: grey;
-    font-size: 15px;
-    text-align: center;
-    color: rgb(17, 16, 17);
-    border-radius: 10%;
-    border-color: gray;
-    cursor: pointer;
-}
-.resume .resume_info{
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px;
+    margin:10px auto;
 
 }
-.resume .resume_info p{
-    font-size: 18px;
-    line-height: 8px;
-    margin: 10px;    
-}
-.img{
-    display: flex;
-    flex-direction: column;
-    background-color:transparent;
-    width: 660px;
-    height:auto;
-    margin: 0px auto;
-}
-
-.img ul{
-    width: auto;
+nav ul li{
+    display:inline-flex;
     margin: 10px auto;
-    padding: 0;
-    overflow: hidden;
-
-}
-.img ul li{
-    float: left;
-    width: 200px;
-    height: 200px;
-    margin:5px;
-    border: 1px solid gray;
-    background-color:transparent;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, .4);
-    transition: all .3s ease-in;
-    background-position: 0px 0px;
-    background-size: 200px 200px;
-}
-.img ul li:hover{
-    transform: scale(2);
-}
-
-.backgroun{display: flex;
-    flex-direction: column;
-    background-color:#000000;
-    align-items: center;}
-.icon{
-    size: 30px;
-    width: auto;
-    height: auto;
-    color: #000000;   
-    background-color: transparent;
-    display: flex;
-
-    padding: 10px;
-}
-.icon .icone{
-    display: flex;
-    color: whitesmoke;
-    align-items: center;
-    padding: 10px;
-}
-.content_port{
-    margin: 0px auto;
-    padding: 300px;
-    display: flex;    
-}
-.content_port .bc_port1{
-    width: 600px;
-    height: 500px;
-    background: url(/img/img7.jpg);
-    background-size: 600px 600px;
-    margin: 0px auto;
-    display: flex;
-    align-items: center;
-
-}
-.content_port .bc_port2{
-    display: flex;
-    background: url(/img/img9.jpg);
-    width: 600px;
-    height:auto;
-    background-size: 600px 600px;
-    margin: 0 auto;
-    align-items: center;
-}
-.content_port .btm{
-    font-size: 20px;
-    height: 40px;
-    text-align: center;
-    margin: 0px auto;
-    color: #2C2C2C;
-    text-decoration: none;
-    border: 4px  solid rgba(38, 112, 155, 0.7);
-    border-radius: 20px ;
-    background-color: silver;
-}
-.contact_us{
-    margin: 100px auto;
-    text-align: center;
-    width: 500px;
-    display: flex;
-    flex-direction: column;  
-}
-.contact_icon{
-    margin: 30px;
     padding: 20px;
-    width: auto;
-    display: flex;
-}
-.contact_icon .icone{
-    margin: auto;
-    width: 100px;
-    height: 100px;
-    
-}
-
-.content{
-    margin: 80px auto;
-}
-.content ul{display: flex;
-    margin: auto;
-    flex-direction: column;
-    width: 600px;
-    height: 1200px;
-    align-items: center;
-}
-.content .event{
-    width: 400px;
-    height: 400px;
-    margin: 10px;
+    text-align: center;
     font-size: 20px;
+}
+li{flex-direction: column;
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, .7);
+}
+#logo{margin: 20px auto;
+    width: 50px;
+    height: 50px;
+    opacity: 0.65;
+}
+#logo img{
+    margin: 20px auto;
+    width: 50px;
+    height: 50px;}
+.content{
     text-align: center;
-    border: 1px solid gray;
-    box-shadow: 10px 10px 20px rgba(116, 108, 108, 0.7);
-}
-.content .event .span_text{
-    opacity: 0;
-    background-color: rgba(24, 23, 23, 0.7);
-    box-shadow: 1px 1px 2px rgba(116, 108, 108, 0.4);
-    color:#ffffff;
+    width: auto;
+    height: auto;
+    align-items: center;
 
 }
-.content .event:hover span{
-    opacity: 1;
+#title{
+    text-align: center;
+    padding: 30px;
+    size: 50px;
+    color: blue;
 }
-
-.content .img_port{
-    display: flex;
-    margin: 5px;
-    width: 800px ;
-    height: 700px ;
+#service{
+    padding: 50px;
 }
-.content #event1{
-    background: url(/site_dp/_img/event1.jpg);
-    background-size: 400px 400px;
-
-}
-.content #event2{
-    background: url(/site_dp/_img/event2.jpg);
-    background-size: 400px 400px;    
-}
-.content #event3{
-    background: url(/site_dp/_img/event3.jpg);
-    background-size: 400px 400px;
-
-}
-.resume-about{  
-    display: flex;
-    width:1000px ;
-    margin:50px auto ;
-    padding: 10px;
-    display: flex;
-    background: linear-gradient(#6e6e6e, #dddee6);
-}
-.side_text{
-    font-size: 18px;
-    padding: 10px;
-}
-.resume-about .side_pic img{
-    height: 100%;
-    width: 550px;
-}
-.side_text #poema{
+#service li{
+    background-color: whitesmoke;
     width: 300px;
-    line-height: 30px;
+    height: 200px;
+    padding: 2px;
+    margin: 10px;
+}
+.image{
+    width: auto;
+    height: auto;
+}
+.image img{
+    width: 400px;
+    height: 300px;
+
+
+}
+.footer{
+    width: auto;
+    height: auto;
+    display: flex;
+}
+.footer ul {display: inline-flex;
     margin: 10px auto;
+    width: auto;
+    height: auto;
     text-align: center;
 }
- .side_text #text{
-     font-size: 20px;
-    margin: 10px auto;
-    width: 350px;
-    text-align: justify;
+.footer ul li{
+    padding: 20px;
+    margin: 0px auto;
+    width: auto;
+    height: auto;
+}
+.footer ul li img{
+    text-align: center;
+    width: 20px;
 }
