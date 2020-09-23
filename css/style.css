@@ -69,12 +69,13 @@ a{
     margin: 10px;
 }
 .image{
-    width: auto;
-    height: auto;
+    width: 400px;
+    height: 300px;
+    
 }
 .image img{
     width: 400px;
-    height: 300px;
+    height: auto;
 
 
 }
