@@ -12,6 +12,15 @@ body{
     font-size: 14px;
     line-height: 20px;
 }
+.gallery{
+    text-align: center;
+}
+.gallery img{
+    width: 70%;
+    height: auto;
+    margin: 30px;
+    border: 3px #fff solid;
+}
 .resume .title{
  font-size: 25PX;
  padding: 10px;
@@ -30,17 +39,17 @@ body{
     align-items: center;
 }
 
-.resume .menu ul{
+.menu{
     display: flex;
     margin: 50px auto;
     
 }
-.resume .menu ul li{
+.menu li{
     display: flex;
     font-size: 20px;
     padding: 20px;  
 }
-.resume .menu ul li a{
+.menu a{
     text-decoration: none;
     color: #2C2C2C;
 }
@@ -96,7 +105,6 @@ body{
     width: 660px;
     height:auto;
     margin: 0px auto;
-    box-shadow: 30px 10px 15px rgba(116, 108, 108, 0.7);
 }
 
 .img ul{
@@ -115,81 +123,18 @@ body{
     background-color:transparent;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, .4);
     transition: all .3s ease-in;
+    background-position: 0px 0px;
+    background-size: 200px 200px;
 }
 .img ul li:hover{
     transform: scale(2);
-    
-}
-.img ul li#foto1{
-    background: url(/img/img1.jpg) no-repeat;
-    background-position: 50% 50%;
-    background-size: 400px 400px;
-    background-color: #ffffff;
-}
-.img ul li#foto1:hover{
-    background-position: 0px 0px;
-    background-size: 200px 200px;
-}
-.img ul li#foto2{
-    background: url(/img/img2.jpg) no-repeat;
-    background-position: 50% 50%;
-    background-size: 400px 400px;
-    background-color: #ffffff;
 }
 
-.img ul li#foto2:hover{
-    background-position: 0px 0px;
-    background-size: 200px 200px;
-}
-.img ul li#foto3{
-    background: url(/img/img3.jpg) no-repeat;
-    background-position: 50% 50%;
-    background-size: 400px 400px;
-    background-color: #ffffff;
-}
-
-.img ul li#foto3:hover{
-    background-position: 0px 0px;
-    background-size: 200px 200px;
-}
-.img ul li#foto4{
-    background: url(/img/img4.jpg) no-repeat;
-    background-position: 50% 50%;
-    background-size: 400px 400px;
-    background-color: #ffffff;
-}
-
-.img ul li#foto4:hover{
-    background-position: 0px 0px;
-    background-size: 200px 200px;
-}
-.img ul li#foto5{
-    background: url(/img/img5.jpg) no-repeat;
-    background-position: 50% 50%;
-    background-size: 400px 400px;
-    background-color: #ffffff;
-}
-
-.img ul li#foto5:hover{
-    background-position: 0px 0px;
-    background-size: 200px 200px;
-}
-.img ul li#foto6{
-    background: url(/img/img6.jpg) no-repeat;
-    background-position: 50% 50%;
-    background-size: 400px 400px;
-    background-color: #ffffff;
-}
-.img ul li#foto6:hover{
-    background-position: 0px 0px;
-    background-size: 200px 200px;
-}
 .backgroun{display: flex;
     flex-direction: column;
     background-color:#000000;
-    height: 100%;
     align-items: center;}
-.backgroun .icon{
+.icon{
     size: 30px;
     width: auto;
     height: auto;
@@ -199,16 +144,11 @@ body{
 
     padding: 10px;
 }
-.backgroun .icon .icone{
+.icon .icone{
     display: flex;
     color: whitesmoke;
     align-items: center;
     padding: 10px;
-    
-}
-.body{
-    width: auto;
-
 }
 .content_port{
     margin: 0px auto;
@@ -218,7 +158,7 @@ body{
 .content_port .bc_port1{
     width: 600px;
     height: 500px;
-    background: url(/site_dp/_img/img7.jpg);
+    background: url(/img/img7.jpg);
     background-size: 600px 600px;
     margin: 0px auto;
     display: flex;
@@ -227,7 +167,7 @@ body{
 }
 .content_port .bc_port2{
     display: flex;
-    background: url(../_img/img9.jpg);
+    background: url(/img/img9.jpg);
     width: 600px;
     height:auto;
     background-size: 600px 600px;
